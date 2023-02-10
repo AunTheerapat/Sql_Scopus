@@ -37,7 +37,3 @@ FROM [Scopus_Data].[dbo].[ScopusID] AS a
 INNER JOIN CTE_Name AS b
 ON a.[Scopus Author ID] = b.ScopusID
 ORDER BY b.[Year] DESC;
-
-    
-    
-    
